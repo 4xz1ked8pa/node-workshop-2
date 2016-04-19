@@ -1,0 +1,3 @@
+function getWeather() {
+  prompt.start();
+}
