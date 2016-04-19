@@ -6,9 +6,14 @@
 
 function firstChar(str) {
   var strFirstCharacter = str.charAt(0);
-  setTimeout(function() {
+  return setTimeout(function() {
     console.log(strFirstCharacter);
   },3000);
 }
 
-firstChar("Hello");
+function lastChar() {
+  var strLastCharacter = str.charAt(str.length);
+  return setTimeout(function() {
+    console.log(strLastCharacter);
+  },2000);
+}
