@@ -5,9 +5,10 @@
 
 
 function firstChar(str) {
-  setTimeout(function(str) {
-    console.log(str);
-  },1000);
+  var strFirstCharacter = str.charAt(0);
+  setTimeout(function() {
+    console.log(strFirstCharacter);
+  },3000);
 }
 
 firstChar("Hello");
