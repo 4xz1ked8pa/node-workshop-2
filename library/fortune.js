@@ -3,7 +3,9 @@ function randBetween(a, b) {
 }
 
 function getFortune() {
-  var quotes = ["The future smiles at you.", "You will soon find your soulmate.", "You will find yourself soon enough."];
+  var quotes = ["The future smiles at you.",
+                "You will soon find your soulmate.",
+                "You will find yourself soon enough."];
   var randNumber = randBetween(1,quotes.length - 1);
   var resultQuote = quotes[randNumber];
   console.log(resultQuote);
