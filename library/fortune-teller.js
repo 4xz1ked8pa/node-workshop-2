@@ -1,3 +1,3 @@
-var fortune = require('fortune');
+var fortune = require('./fortune');
 
 fortune.getFortune();
